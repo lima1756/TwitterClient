@@ -1,0 +1,151 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:2:1-39:12
+MERGED from [com.codepath.libraries:android-oauth-handler:1.3.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/android-oauth-handler-1.3.1.aar/39d62d709b06887e8405ad475cd5edf2/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:appcompat-v7:27.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/047bfa43806eef7097041c5b444c58cf/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence.room:runtime:1.0.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/c57d4e925d069556ecb370591e9f61a8/AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/stetho-1.5.0.aar/f8c97416b1e85b1093218ba746175611/AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:support-v4:27.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.0.aar/3345881d8427d6eda32d6e9e08643222/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.0.aar/9ccaced5687eebc699b8493562d1ee88/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.0.aar/c7b4e2ae738bed77d383039c2a565cd0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.0.aar/32e434e57cc101738c4b2b40d14ddf17/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence:db-framework:1.0.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/db-framework-1.0.0.aar/6ea3e4ca5ba58ed4251e01d0fd5b4861/AndroidManifest.xml:17:1-24:12
+MERGED from [android.arch.persistence:db:1.0.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/db-1.0.0.aar/0832bf99660d474a4edff063586e27ec/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-media-compat:27.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.0.aar/e3b9d1b159135d02faed5f390b2476cd/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.0.aar/e700de5768e6897a5acd5ee7acbb331c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.0.aar/bc0670c448a7699d064be116b665e286/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/615b49ca348379eb2d5f09f2d629d4fb/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/dd20dc2a8f1f54632bd90a8765032958/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/fa1d842b04879ae4b1524aee2b495c7c/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/bf725fc1f1afae44a33761b708c69847/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/8cd3416ecde99bafac33989198ef3fa5/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:2:1-39:12
+	package
+		ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:3:5-43
+		INJECTED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:7:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:8:22-78
+application
+ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:10:5-37:19
+MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/stetho-1.5.0.aar/f8c97416b1e85b1093218ba746175611/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/stetho-1.5.0.aar/f8c97416b1e85b1093218ba746175611/AndroidManifest.xml:11:5-20
+	android:label
+		ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:14:9-41
+	android:icon
+		ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:13:9-56
+	android:allowBackup
+		ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:15:9-40
+	android:name
+		ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:11:9-35
+activity#com.ivanmorett.twitterclient.LoginActivity
+ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:17:9-36:20
+	android:label
+		ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:20:13-45
+	android:theme
+		ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:19:13-44
+	android:name
+		ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:18:13-70
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:21:13-25:29
+action#android.intent.action.MAIN
+ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:22:17-69
+	android:name
+		ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:22:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:24:17-77
+	android:name
+		ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:24:27-74
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:@string/intent_host+data:scheme:@string/intent_scheme
+ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:26:13-35:29
+action#android.intent.action.VIEW
+ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:27:17-69
+	android:name
+		ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:27:25-66
+category#android.intent.category.DEFAULT
+ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:29:17-76
+	android:name
+		ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:29:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:30:17-78
+	android:name
+		ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:30:27-75
+data
+ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:32:17-34:62
+	android:host
+		ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:33:21-55
+	android:scheme
+		ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:34:21-59
+uses-sdk
+INJECTED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml
+INJECTED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml
+MERGED from [com.codepath.libraries:android-oauth-handler:1.3.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/android-oauth-handler-1.3.1.aar/39d62d709b06887e8405ad475cd5edf2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.codepath.libraries:android-oauth-handler:1.3.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/android-oauth-handler-1.3.1.aar/39d62d709b06887e8405ad475cd5edf2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:27.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/047bfa43806eef7097041c5b444c58cf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/047bfa43806eef7097041c5b444c58cf/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence.room:runtime:1.0.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/c57d4e925d069556ecb370591e9f61a8/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.persistence.room:runtime:1.0.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/c57d4e925d069556ecb370591e9f61a8/AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/stetho-1.5.0.aar/f8c97416b1e85b1093218ba746175611/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/stetho-1.5.0.aar/f8c97416b1e85b1093218ba746175611/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:27.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.0.aar/3345881d8427d6eda32d6e9e08643222/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.0.aar/3345881d8427d6eda32d6e9e08643222/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.0.aar/9ccaced5687eebc699b8493562d1ee88/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.0.aar/9ccaced5687eebc699b8493562d1ee88/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.0.aar/c7b4e2ae738bed77d383039c2a565cd0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.0.aar/c7b4e2ae738bed77d383039c2a565cd0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.0.aar/32e434e57cc101738c4b2b40d14ddf17/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.0.aar/32e434e57cc101738c4b2b40d14ddf17/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db-framework:1.0.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/db-framework-1.0.0.aar/6ea3e4ca5ba58ed4251e01d0fd5b4861/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.persistence:db-framework:1.0.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/db-framework-1.0.0.aar/6ea3e4ca5ba58ed4251e01d0fd5b4861/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.persistence:db:1.0.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/db-1.0.0.aar/0832bf99660d474a4edff063586e27ec/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.persistence:db:1.0.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/db-1.0.0.aar/0832bf99660d474a4edff063586e27ec/AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.support:support-media-compat:27.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.0.aar/e3b9d1b159135d02faed5f390b2476cd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.0.aar/e3b9d1b159135d02faed5f390b2476cd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.0.aar/e700de5768e6897a5acd5ee7acbb331c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.0.aar/e700de5768e6897a5acd5ee7acbb331c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.0.aar/bc0670c448a7699d064be116b665e286/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.0.aar/bc0670c448a7699d064be116b665e286/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/615b49ca348379eb2d5f09f2d629d4fb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/615b49ca348379eb2d5f09f2d629d4fb/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/dd20dc2a8f1f54632bd90a8765032958/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/dd20dc2a8f1f54632bd90a8765032958/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/fa1d842b04879ae4b1524aee2b495c7c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/fa1d842b04879ae4b1524aee2b495c7c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/bf725fc1f1afae44a33761b708c69847/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/bf725fc1f1afae44a33761b708c69847/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/8cd3416ecde99bafac33989198ef3fa5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/8cd3416ecde99bafac33989198ef3fa5/AndroidManifest.xml:20:5-44
+INJECTED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml
+INJECTED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml
