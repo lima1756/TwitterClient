@@ -39,6 +39,7 @@
                     android:scheme="@string/intent_scheme" />
             </intent-filter>
         </activity>
+        <activity android:name="com.ivanmorett.twitterclient.TimelineActivity" />
 
         <provider
             android:name="com.android.tools.ir.server.InstantRunContentProvider"
