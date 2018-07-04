@@ -65,7 +65,7 @@ MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/ivanmorett/.gradle/caches/
 MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.7.1.aar/d1bf7772227c044646ebe1294e58e3be/AndroidManifest.xml:9:5-20
 MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.7.1.aar/d1bf7772227c044646ebe1294e58e3be/AndroidManifest.xml:9:5-20
 	android:label
-		ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:14:9-41
+		ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:14:9-25
 	android:icon
 		ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:13:9-56
 	android:allowBackup
@@ -77,7 +77,7 @@ MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] /Users/ivanmorett/.grad
 activity#com.ivanmorett.twitterclient.LoginActivity
 ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:16:9-35:20
 	android:label
-		ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:18:13-45
+		ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:18:13-29
 	android:theme
 		ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:19:13-44
 	android:name

@@ -49,7 +49,7 @@ public class TimelineActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(getApplicationContext(), ComposeActivity.class);
-                startActivity(i);
+                startActivityForResult(i, 1);
             }
         });
 
@@ -99,5 +99,12 @@ public class TimelineActivity extends AppCompatActivity {
                  throwable.printStackTrace();
              }
          });
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        if(resultCode == 1 && requestCode==RESULT_OK){
+
+        }
     }
 }

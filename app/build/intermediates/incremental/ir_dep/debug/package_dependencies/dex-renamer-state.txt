@@ -1,4 +1,4 @@
-#Tue Jul 03 15:28:11 PDT 2018
+#Tue Jul 03 21:26:29 PDT 2018
 base.0=/Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/build/intermediates/transforms/dexMerger/debug/10
 path.0=classes.dex
 renamed.0=classes.dex
