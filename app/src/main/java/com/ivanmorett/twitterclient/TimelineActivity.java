@@ -8,6 +8,7 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.View;
+import android.widget.Toast;
 
 import com.ivanmorett.twitterclient.models.Tweet;
 import com.loopj.android.http.JsonHttpResponseHandler;
@@ -15,6 +16,7 @@ import com.loopj.android.http.JsonHttpResponseHandler;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+import org.parceler.Parcels;
 
 import java.util.ArrayList;
 
@@ -29,6 +31,7 @@ public class TimelineActivity extends AppCompatActivity {
     private TweetAdapter adapter;
     @BindView(R.id.rvTweet) RecyclerView rvTweet;
     @BindView(R.id.fabComposeTweet) FloatingActionButton fabComposeTweet;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -103,8 +106,10 @@ public class TimelineActivity extends AppCompatActivity {
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        if(resultCode == 1 && requestCode==RESULT_OK){
-
+        if(resultCode == RESULT_OK && requestCode==1){
+            Toast.makeText(getApplicationContext(), "Tweet submitted", Toast.LENGTH_LONG).show();
+            tweets.add(0, (Tweet) Parcels.unwrap(data.getParcelableExtra("tweet")));
+            adapter.notifyItemInserted(0);
         }
     }
 }

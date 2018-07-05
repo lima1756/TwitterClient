@@ -2,13 +2,17 @@ package com.ivanmorett.twitterclient.models;
 
 import org.json.JSONException;
 import org.json.JSONObject;
+import org.parceler.Parcel;
 
+@Parcel
 public class Tweet {
 
     private String body;
     private long uid;
     private User user;
     private String createdAt;
+
+    public Tweet(){}
 
     public static Tweet fromJSON(JSONObject jsonObject) throws JSONException{
         Tweet tweet = new Tweet();

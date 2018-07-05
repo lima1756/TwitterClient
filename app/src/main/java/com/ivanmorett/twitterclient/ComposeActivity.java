@@ -1,11 +1,6 @@
 package com.ivanmorett.twitterclient;
 
-import android.graphics.PorterDuff;
-import android.graphics.drawable.Drawable;
-import android.graphics.drawable.LayerDrawable;
-import android.support.v4.app.NavUtils;
-import android.support.v4.content.ContextCompat;
-import android.support.v4.view.MenuItemCompat;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
@@ -20,8 +15,16 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.ivanmorett.twitterclient.models.Tweet;
+import com.loopj.android.http.JsonHttpResponseHandler;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+import org.parceler.Parcels;
+
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import cz.msebera.android.httpclient.Header;
 
 public class ComposeActivity extends AppCompatActivity {
 
@@ -52,7 +55,31 @@ public class ComposeActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if(pbController.isOk()){
-                    // TODO send tweet
+                    new TwitterClient(getApplicationContext()).sendTweet(etTweetBody.getText().toString(), new JsonHttpResponseHandler() {
+                        @Override
+                        public void onSuccess(int statusCode, Header[] headers, JSONObject response) {
+                            try {
+                                Tweet tweet = Tweet.fromJSON(response);
+                                Intent i = new Intent();
+                                i.putExtra("tweet", Parcels.wrap(tweet));
+                                setResult(RESULT_OK, i);
+                                finish();
+                            } catch (JSONException e) {
+                                e.printStackTrace();
+                            }
+                        }
+
+                        @Override
+                        public void onFailure(int statusCode, Header[] headers, Throwable throwable, JSONObject errorResponse) {
+                            try {
+                                Toast.makeText(getApplicationContext(),
+                                        errorResponse.getJSONArray("errors").getJSONObject(0).getString("message"),
+                                        Toast.LENGTH_LONG).show();
+                            } catch (JSONException ex){
+                                ex.printStackTrace();
+                            }
+                        }
+                    });
                 }
             }
         });
@@ -105,5 +132,6 @@ public class ComposeActivity extends AppCompatActivity {
         }
 
     }
+
 
 }
