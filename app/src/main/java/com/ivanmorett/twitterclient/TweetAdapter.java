@@ -71,4 +71,18 @@ public class TweetAdapter extends RecyclerView.Adapter<TweetAdapter.ViewHolder>{
             ButterKnife.bind(this, itemView);
         }
     }
+
+    // Clean all elements of the recycler
+    public void clear() {
+        mTweets.clear();
+        notifyDataSetChanged();
+    }
+
+
+
+    // Add a list of items -- change to type used
+    public void addAll(ArrayList<Tweet> list) {
+        mTweets.addAll(list);
+        notifyDataSetChanged();
+    }
 }
