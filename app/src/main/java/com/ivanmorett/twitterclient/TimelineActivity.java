@@ -2,6 +2,7 @@ package com.ivanmorett.twitterclient;
 
 import android.content.Intent;
 import android.support.design.widget.FloatingActionButton;
+import android.support.v4.app.FragmentManager;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -47,7 +48,9 @@ public class TimelineActivity extends AppCompatActivity {
 
         tweets = new ArrayList<>();
 
-        adapter = new TweetAdapter(tweets);
+        client = TwitterApp.getRestClient(getApplicationContext());
+
+        adapter = new TweetAdapter(tweets, this, client);
 
         rvTweet.setLayoutManager(new LinearLayoutManager( this));
         rvTweet.setAdapter(adapter );
@@ -56,12 +59,13 @@ public class TimelineActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(getApplicationContext(), ComposeActivity.class);
-                startActivityForResult(i, 1);
+//                Intent i = new Intent(getApplicationContext(), ComposeFragment.class);
+////                startActivityForResult(i, 1);
+                showEditDialog(ComposeFragment.newInstance(getApplicationContext(), null));
             }
         });
 
-        client = TwitterApp.getRestClient(getApplicationContext());
+
         populateTimeline();
 
         swipeContainer.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
@@ -94,46 +98,41 @@ public class TimelineActivity extends AppCompatActivity {
     }
 
     private void populateTimeline(){
-         client.getHomeTimeline(new JsonHttpResponseHandler(){
-             @Override
-             public void onSuccess(int statusCode, Header[] headers, JSONObject response) {
-                 Log.d(TAG, response.toString());
-             }
+        client.getHomeTimeline(new JsonHttpResponseHandler(){
+            @Override
+            public void onSuccess(int statusCode, Header[] headers, JSONObject response) {
+                Log.d(TAG, response.toString());
+            }
 
-             @Override
-             public void onSuccess(int statusCode, Header[] headers, JSONArray response) {
+            @Override
+            public void onSuccess(int statusCode, Header[] headers, JSONArray response) {
 
-                 for(int i = 0; i < response.length(); i++){
-                     try {
-                         Tweet tweet = Tweet.fromJSON(response.getJSONObject(i));
-                         tweets.add(tweet);
-                         adapter.notifyItemInserted(tweets.size()-1);
-                     } catch(JSONException ex){
-                         Log.e(TAG, ex.getMessage() );
-                         ex.printStackTrace();
-                     }
-                 }
+                try {
+                    adapter.addAll(Tweet.fromJSON(response));
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
 
-             }
+            }
 
-             @Override
-             public void onFailure(int statusCode, Header[] headers, String responseString, Throwable throwable) {
-                 Log.e(TAG, responseString);
-                 throwable.printStackTrace();
-             }
+            @Override
+            public void onFailure(int statusCode, Header[] headers, String responseString, Throwable throwable) {
+                Log.e(TAG, responseString);
+                throwable.printStackTrace();
+            }
 
-             @Override
-             public void onFailure(int statusCode, Header[] headers, Throwable throwable, JSONArray errorResponse) {
-                 Log.e(TAG, errorResponse.toString());
-                 throwable.printStackTrace();
-             }
+            @Override
+            public void onFailure(int statusCode, Header[] headers, Throwable throwable, JSONArray errorResponse) {
+                Log.e(TAG, errorResponse.toString());
+                throwable.printStackTrace();
+            }
 
-             @Override
-             public void onFailure(int statusCode, Header[] headers, Throwable throwable, JSONObject errorResponse) {
-                 Log.e(TAG, errorResponse.toString());
-                 throwable.printStackTrace();
-             }
-         });
+            @Override
+            public void onFailure(int statusCode, Header[] headers, Throwable throwable, JSONObject errorResponse) {
+                Log.e(TAG, errorResponse.toString());
+                throwable.printStackTrace();
+            }
+        });
     }
 
     public void fetchTimelineAsync(int page) {
@@ -148,15 +147,10 @@ public class TimelineActivity extends AppCompatActivity {
                 adapter.clear();
 
                 // Adding items
-                for(int i = 0; i < response.length(); i++){
-                    try {
-                        Tweet tweet = Tweet.fromJSON(response.getJSONObject(i));
-                        tweets.add(tweet);
-                        adapter.notifyItemInserted(tweets.size()-1);
-                    } catch(JSONException ex){
-                        Log.e(TAG, ex.getMessage() );
-                        ex.printStackTrace();
-                    }
+                try {
+                    adapter.addAll(Tweet.fromJSON(response));
+                } catch (JSONException e) {
+                    e.printStackTrace();
                 }
 
                 // Now we call setRefreshing(false) to signal refresh has finished
@@ -188,15 +182,29 @@ public class TimelineActivity extends AppCompatActivity {
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        if(resultCode == RESULT_OK && requestCode==1){
-            Toast.makeText(getApplicationContext(), "Tweet submitted", Toast.LENGTH_LONG).show();
-            tweets.add(0, (Tweet) Parcels.unwrap(data.getParcelableExtra("tweet")));
-            adapter.notifyItemInserted(0);
-            scrollToTop();
-        }
+
     }
 
-    public void scrollToTop(){
-        rvTweet.getLayoutManager().startSmoothScroll(smoothScroller);
+    public void addTweet(Tweet tweet){
+        //Toast.makeText(getApplicationContext(), "Tweet submitted", Toast.LENGTH_LONG).show();
+        tweets.add(0, tweet);
+        adapter.notifyItemInserted(0);
+        scrollToTop();
     }
+    public void scrollToTop(){
+        rvTweet.smoothScrollToPosition(0);
+        //rvTweet.getLayoutManager().startSmoothScroll(smoothScroller);
+    }
+
+    public void showEditDialog(ComposeFragment composeFragment) {
+
+        FragmentManager fm = getSupportFragmentManager();
+
+        ComposeFragment editNameDialogFragment = composeFragment;
+
+        editNameDialogFragment.show(fm, "fragment_edit_name");
+
+    }
+
+
 }

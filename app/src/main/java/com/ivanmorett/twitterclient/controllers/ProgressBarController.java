@@ -1,4 +1,4 @@
-package com.ivanmorett.twitterclient;
+package com.ivanmorett.twitterclient.controllers;
 
 import android.content.Context;
 import android.graphics.PorterDuff;
@@ -6,6 +6,8 @@ import android.graphics.drawable.Drawable;
 import android.graphics.drawable.LayerDrawable;
 import android.support.v4.content.ContextCompat;
 import android.widget.ProgressBar;
+
+import com.ivanmorett.twitterclient.R;
 
 public class ProgressBarController {
     private boolean isDanger, isWarning;

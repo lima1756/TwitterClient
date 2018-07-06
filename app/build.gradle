@@ -58,4 +58,6 @@ dependencies {
     // Parceler
     implementation 'org.parceler:parceler-api:1.1.6'
     annotationProcessor 'org.parceler:parceler:1.1.6'
+    // Pagination
+    implementation "android.arch.paging:runtime:1.0.1"
 }

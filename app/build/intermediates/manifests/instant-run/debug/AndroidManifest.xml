@@ -16,7 +16,7 @@
         android:allowBackup="true"
         android:debuggable="true"
         android:icon="@drawable/ic_launcher_foreground"
-        android:label=""
+        android:label="TwitterClient"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
@@ -40,7 +40,7 @@
             </intent-filter>
         </activity>
         <activity android:name="com.ivanmorett.twitterclient.TimelineActivity" />
-        <activity android:name="com.ivanmorett.twitterclient.ComposeActivity" />
+        <activity android:name="com.ivanmorett.twitterclient.TweetDetailsActivity" />
 
         <provider
             android:name="com.android.tools.ir.server.InstantRunContentProvider"

@@ -11,7 +11,7 @@
         android:name=".TwitterApp"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher_foreground"
-        android:label=""
+        android:label="TwitterClient"
         android:theme="@style/AppTheme">
         <activity
             android:name=".LoginActivity"
@@ -34,7 +34,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".TimelineActivity" />
-        <activity android:name=".ComposeActivity"></activity>
+        <activity android:name=".TweetDetailsActivity"/>
     </application>
 
 </manifest>

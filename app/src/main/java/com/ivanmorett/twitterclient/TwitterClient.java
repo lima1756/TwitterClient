@@ -2,11 +2,11 @@ package com.ivanmorett.twitterclient;
 
 import android.content.Context;
 
-import com.ivanmorett.twitterclient.R;
 import com.codepath.oauth.OAuthBaseClient;
-import com.github.scribejava.apis.FlickrApi;
 import com.github.scribejava.apis.TwitterApi;
 import com.github.scribejava.core.builder.api.BaseApi;
+import com.ivanmorett.twitterclient.constants.Secrets;
+import com.ivanmorett.twitterclient.models.User;
 import com.loopj.android.http.AsyncHttpResponseHandler;
 import com.loopj.android.http.RequestParams;
 
@@ -48,8 +48,8 @@ public class TwitterClient extends OAuthBaseClient {
 		String apiUrl = getApiUrl("/statuses/home_timeline.json");
 		// Can specify query string params directly or through RequestParams.
 		RequestParams params = new RequestParams();
-		params.put("count", 25);
-		params.put("since_id", 1);
+        params.put("count", 25);
+        params.put("since_id", 1);
 		client.get(apiUrl, params, handler);
 	}
 
@@ -58,6 +58,22 @@ public class TwitterClient extends OAuthBaseClient {
 		// Can specify query string params directly or through RequestParams.
 		RequestParams params = new RequestParams();
 		params.put("status", message);
+		client.post(apiUrl, params, handler);
+	}
+
+	public void replyTweet(String message, long id, AsyncHttpResponseHandler handler){
+		String apiUrl = getApiUrl("statuses/update.json");
+		// Can specify query string params directly or through RequestParams.
+		RequestParams params = new RequestParams();
+		params.put("status", message);
+		params.put("in_reply_to_status_id", id);
+		client.post(apiUrl, params, handler);
+	}
+
+	public void retweet(long id, AsyncHttpResponseHandler handler){
+		String apiUrl = getApiUrl("statuses/retweet/"+id+".json");
+		RequestParams params = new RequestParams();
+		params.put("id", id);
 		client.post(apiUrl, params, handler);
 	}
 	/* 1. Define the endpoint URL with getApiUrl and pass a relative path to the endpoint

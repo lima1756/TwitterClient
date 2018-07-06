@@ -6,4 +6,7 @@
     <color name="colorBackground">#FAFAFA</color>
     <color name="colorDanger">#D9534F</color>
     <color name="colorWarning">#f0ad4e</color>
+    <color name="colorRetweet">#32CD32</color>
+    <color name="colorFavorite">#e0245e</color>
+    <color name="colorUnClicked">#aaa</color>
 </resources>
