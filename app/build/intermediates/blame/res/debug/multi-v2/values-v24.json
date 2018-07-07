@@ -4,17 +4,7 @@
             "outputFile": "/Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "/Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/047bfa43806eef7097041c5b444c58cf/res/values-v24/values-v24.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,212",
-                        "endColumns": "156,134",
-                        "endOffsets": "207,342"
-                    }
-                },
-                {
-                    "source": "/Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.0.aar/e3b9d1b159135d02faed5f390b2476cd/res/values-v24/values-v24.xml",
+                    "source": "/Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/0e5d4f85629761b9c9ac5a445de78125/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -28,6 +18,16 @@
                         "startOffsets": "347,413,474,540",
                         "endColumns": "65,60,65,66",
                         "endOffsets": "408,469,535,602"
+                    }
+                },
+                {
+                    "source": "/Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/4934412f530d554527e9a916bff552cf/res/values-v24/values-v24.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,212",
+                        "endColumns": "156,134",
+                        "endOffsets": "207,342"
                     }
                 }
             ]

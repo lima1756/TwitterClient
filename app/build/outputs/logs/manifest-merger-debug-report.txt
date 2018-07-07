@@ -1,30 +1,39 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:2:1-39:12
-INJECTED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:2:1-39:12
-INJECTED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:2:1-39:12
-INJECTED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:2:1-39:12
+ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:2:1-40:12
 MERGED from [com.codepath.libraries:android-oauth-handler:1.3.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/android-oauth-handler-1.3.1.aar/39d62d709b06887e8405ad475cd5edf2/AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:appcompat-v7:27.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/047bfa43806eef7097041c5b444c58cf/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.persistence.room:runtime:1.0.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/c57d4e925d069556ecb370591e9f61a8/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:design:27.1.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/fcc5e6bbe72725fab3b20d412a241df6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/4934412f530d554527e9a916bff552cf/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.7.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/glide-4.7.1.aar/e5a48c0687ee5fbe4e107eed547769af/AndroidManifest.xml:2:1-13:12
+MERGED from [android.arch.persistence.room:runtime:1.1.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/d779ef01465044ba86e44707239fc255/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/97bd39dd0b7a8ee02fe67ad4be941bfd/AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/stetho-1.5.0.aar/f8c97416b1e85b1093218ba746175611/AndroidManifest.xml:2:1-13:12
-MERGED from [com.android.support:support-v4:27.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.0.aar/3345881d8427d6eda32d6e9e08643222/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:27.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.0.aar/9ccaced5687eebc699b8493562d1ee88/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:27.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.0.aar/c7b4e2ae738bed77d383039c2a565cd0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:27.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.0.aar/32e434e57cc101738c4b2b40d14ddf17/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.persistence:db-framework:1.0.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/db-framework-1.0.0.aar/6ea3e4ca5ba58ed4251e01d0fd5b4861/AndroidManifest.xml:17:1-24:12
-MERGED from [android.arch.persistence:db:1.0.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/db-1.0.0.aar/0832bf99660d474a4edff063586e27ec/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:support-media-compat:27.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.0.aar/e3b9d1b159135d02faed5f390b2476cd/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.0.aar/e700de5768e6897a5acd5ee7acbb331c/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.0.aar/bc0670c448a7699d064be116b665e286/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:27.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/615b49ca348379eb2d5f09f2d629d4fb/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/dd20dc2a8f1f54632bd90a8765032958/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/fa1d842b04879ae4b1524aee2b495c7c/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/bf725fc1f1afae44a33761b708c69847/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.paging:runtime:1.0.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/runtime-1.0.1.aar/a0abb927b23f3efc74a2187d8fa51095/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/c67db2e1274025f8a3175ce355960411/AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton:butterknife:8.4.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/butterknife-8.4.0.aar/9d1ccea687536875f31de5125a1847fe/AndroidManifest.xml:2:1-7:12
+MERGED from [com.android.support:support-v4:27.1.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/ad752e8c54550e8d7951eefc10b0e090/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/0e5d4f85629761b9c9ac5a445de78125/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.7.1.aar/d1bf7772227c044646ebe1294e58e3be/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/c2287d03fad2e6e1e42fde4cf48f4d3e/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence:db-framework:1.1.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/db-framework-1.1.1.aar/97b848350563843607d531830848ac5a/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence:db:1.1.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/db-1.1.1.aar/962701fe246cd98b9d3210d25a5230c6/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/7cbcdb63b220a53177086b36beba14a9/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/66d736d3b740a59748b964c3bd559801/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/b91572608767cdb5ac8eb3dc233c813e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/a38e657e3027fc8ac1f4c7fdc8f6f111/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/b3199275fa2309393a2f4deb3b65bbb1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/3eaa5eae3e6e640e0d3613103726f273/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/403593414b3ce6f5800e8baa4871ddcc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/98ebf5e9d9c3d033487771d301ff8e01/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/1b15ab7a2e505b63309976e6b9c4a8d1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/2ee8107ebc95989d4c85f981284edae7/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/8cd3416ecde99bafac33989198ef3fa5/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:2:1-39:12
-INJECTED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:2:1-39:12
-INJECTED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:2:1-40:12
 	package
 		ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:3:5-43
 		INJECTED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml
@@ -48,11 +57,17 @@ ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/
 	android:name
 		ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:8:22-78
 application
-ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:10:5-37:19
+ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:10:5-38:19
+MERGED from [com.github.bumptech.glide:glide:4.7.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/glide-4.7.1.aar/e5a48c0687ee5fbe4e107eed547769af/AndroidManifest.xml:11:5-20
+MERGED from [com.github.bumptech.glide:glide:4.7.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/glide-4.7.1.aar/e5a48c0687ee5fbe4e107eed547769af/AndroidManifest.xml:11:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/97bd39dd0b7a8ee02fe67ad4be941bfd/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/97bd39dd0b7a8ee02fe67ad4be941bfd/AndroidManifest.xml:9:5-20
 MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/stetho-1.5.0.aar/f8c97416b1e85b1093218ba746175611/AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/stetho-1.5.0.aar/f8c97416b1e85b1093218ba746175611/AndroidManifest.xml:11:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.7.1.aar/d1bf7772227c044646ebe1294e58e3be/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.7.1.aar/d1bf7772227c044646ebe1294e58e3be/AndroidManifest.xml:9:5-20
 	android:label
-		ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:14:9-41
+		ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:14:9-38
 	android:icon
 		ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:13:9-56
 	android:allowBackup
@@ -62,81 +77,107 @@ MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/ivanmorett/.gradle/caches/
 	android:name
 		ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:11:9-35
 activity#com.ivanmorett.twitterclient.LoginActivity
-ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:17:9-36:20
+ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:16:9-35:20
 	android:label
-		ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:20:13-45
+		ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:18:13-29
 	android:theme
 		ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:19:13-44
 	android:name
-		ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:18:13-70
+		ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:17:13-42
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:21:13-25:29
+ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:20:13-24:29
 action#android.intent.action.MAIN
-ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:22:17-69
+ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:21:17-69
 	android:name
-		ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:22:25-66
+		ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:21:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:24:17-77
+ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:23:17-77
 	android:name
-		ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:24:27-74
+		ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:23:27-74
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:@string/intent_host+data:scheme:@string/intent_scheme
-ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:26:13-35:29
+ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:25:13-34:29
 action#android.intent.action.VIEW
-ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:27:17-69
+ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:26:17-69
 	android:name
-		ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:27:25-66
+		ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:26:25-66
 category#android.intent.category.DEFAULT
-ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:29:17-76
+ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:28:17-76
 	android:name
-		ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:29:27-73
+		ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:28:27-73
 category#android.intent.category.BROWSABLE
-ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:30:17-78
+ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:29:17-78
 	android:name
-		ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:30:27-75
+		ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:29:27-75
 data
-ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:32:17-34:62
+ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:31:17-33:62
 	android:host
-		ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:33:21-55
+		ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:32:21-55
 	android:scheme
-		ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:34:21-59
+		ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:33:21-59
+activity#com.ivanmorett.twitterclient.TimelineActivity
+ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:36:9-54
+	android:name
+		ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:36:19-51
+activity#com.ivanmorett.twitterclient.TweetDetailsActivity
+ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:37:9-57
+	android:name
+		ADDED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml:37:19-55
 uses-sdk
 INJECTED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml
 INJECTED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml
 MERGED from [com.codepath.libraries:android-oauth-handler:1.3.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/android-oauth-handler-1.3.1.aar/39d62d709b06887e8405ad475cd5edf2/AndroidManifest.xml:7:5-9:41
 MERGED from [com.codepath.libraries:android-oauth-handler:1.3.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/android-oauth-handler-1.3.1.aar/39d62d709b06887e8405ad475cd5edf2/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:27.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/047bfa43806eef7097041c5b444c58cf/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/047bfa43806eef7097041c5b444c58cf/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.persistence.room:runtime:1.0.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/c57d4e925d069556ecb370591e9f61a8/AndroidManifest.xml:20:5-22:41
-MERGED from [android.arch.persistence.room:runtime:1.0.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/c57d4e925d069556ecb370591e9f61a8/AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.support:design:27.1.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/fcc5e6bbe72725fab3b20d412a241df6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/fcc5e6bbe72725fab3b20d412a241df6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/4934412f530d554527e9a916bff552cf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/4934412f530d554527e9a916bff552cf/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.7.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/glide-4.7.1.aar/e5a48c0687ee5fbe4e107eed547769af/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.bumptech.glide:glide:4.7.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/glide-4.7.1.aar/e5a48c0687ee5fbe4e107eed547769af/AndroidManifest.xml:7:5-9:41
+MERGED from [android.arch.persistence.room:runtime:1.1.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/d779ef01465044ba86e44707239fc255/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence.room:runtime:1.1.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/d779ef01465044ba86e44707239fc255/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/97bd39dd0b7a8ee02fe67ad4be941bfd/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/97bd39dd0b7a8ee02fe67ad4be941bfd/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/stetho-1.5.0.aar/f8c97416b1e85b1093218ba746175611/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/stetho-1.5.0.aar/f8c97416b1e85b1093218ba746175611/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:support-v4:27.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.0.aar/3345881d8427d6eda32d6e9e08643222/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.0.aar/3345881d8427d6eda32d6e9e08643222/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.0.aar/9ccaced5687eebc699b8493562d1ee88/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.0.aar/9ccaced5687eebc699b8493562d1ee88/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.0.aar/c7b4e2ae738bed77d383039c2a565cd0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.0.aar/c7b4e2ae738bed77d383039c2a565cd0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.0.aar/32e434e57cc101738c4b2b40d14ddf17/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.0.aar/32e434e57cc101738c4b2b40d14ddf17/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.persistence:db-framework:1.0.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/db-framework-1.0.0.aar/6ea3e4ca5ba58ed4251e01d0fd5b4861/AndroidManifest.xml:20:5-22:41
-MERGED from [android.arch.persistence:db-framework:1.0.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/db-framework-1.0.0.aar/6ea3e4ca5ba58ed4251e01d0fd5b4861/AndroidManifest.xml:20:5-22:41
-MERGED from [android.arch.persistence:db:1.0.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/db-1.0.0.aar/0832bf99660d474a4edff063586e27ec/AndroidManifest.xml:20:5-22:41
-MERGED from [android.arch.persistence:db:1.0.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/db-1.0.0.aar/0832bf99660d474a4edff063586e27ec/AndroidManifest.xml:20:5-22:41
-MERGED from [com.android.support:support-media-compat:27.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.0.aar/e3b9d1b159135d02faed5f390b2476cd/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.0.aar/e3b9d1b159135d02faed5f390b2476cd/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.0.aar/e700de5768e6897a5acd5ee7acbb331c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.0.aar/e700de5768e6897a5acd5ee7acbb331c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.0.aar/bc0670c448a7699d064be116b665e286/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.0.aar/bc0670c448a7699d064be116b665e286/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/615b49ca348379eb2d5f09f2d629d4fb/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/615b49ca348379eb2d5f09f2d629d4fb/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/dd20dc2a8f1f54632bd90a8765032958/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/dd20dc2a8f1f54632bd90a8765032958/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/fa1d842b04879ae4b1524aee2b495c7c/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/fa1d842b04879ae4b1524aee2b495c7c/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/bf725fc1f1afae44a33761b708c69847/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/bf725fc1f1afae44a33761b708c69847/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.paging:runtime:1.0.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/runtime-1.0.1.aar/a0abb927b23f3efc74a2187d8fa51095/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.paging:runtime:1.0.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/runtime-1.0.1.aar/a0abb927b23f3efc74a2187d8fa51095/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/c67db2e1274025f8a3175ce355960411/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/c67db2e1274025f8a3175ce355960411/AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton:butterknife:8.4.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/butterknife-8.4.0.aar/9d1ccea687536875f31de5125a1847fe/AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton:butterknife:8.4.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/butterknife-8.4.0.aar/9d1ccea687536875f31de5125a1847fe/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:27.1.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/ad752e8c54550e8d7951eefc10b0e090/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/ad752e8c54550e8d7951eefc10b0e090/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/0e5d4f85629761b9c9ac5a445de78125/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/0e5d4f85629761b9c9ac5a445de78125/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.7.1.aar/d1bf7772227c044646ebe1294e58e3be/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.7.1.aar/d1bf7772227c044646ebe1294e58e3be/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/c2287d03fad2e6e1e42fde4cf48f4d3e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/c2287d03fad2e6e1e42fde4cf48f4d3e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db-framework:1.1.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/db-framework-1.1.1.aar/97b848350563843607d531830848ac5a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db-framework:1.1.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/db-framework-1.1.1.aar/97b848350563843607d531830848ac5a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db:1.1.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/db-1.1.1.aar/962701fe246cd98b9d3210d25a5230c6/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db:1.1.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/db-1.1.1.aar/962701fe246cd98b9d3210d25a5230c6/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/7cbcdb63b220a53177086b36beba14a9/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/7cbcdb63b220a53177086b36beba14a9/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/66d736d3b740a59748b964c3bd559801/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/66d736d3b740a59748b964c3bd559801/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/b91572608767cdb5ac8eb3dc233c813e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/b91572608767cdb5ac8eb3dc233c813e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/a38e657e3027fc8ac1f4c7fdc8f6f111/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/a38e657e3027fc8ac1f4c7fdc8f6f111/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/b3199275fa2309393a2f4deb3b65bbb1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/b3199275fa2309393a2f4deb3b65bbb1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/3eaa5eae3e6e640e0d3613103726f273/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/3eaa5eae3e6e640e0d3613103726f273/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/403593414b3ce6f5800e8baa4871ddcc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/403593414b3ce6f5800e8baa4871ddcc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/98ebf5e9d9c3d033487771d301ff8e01/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/98ebf5e9d9c3d033487771d301ff8e01/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/1b15ab7a2e505b63309976e6b9c4a8d1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/1b15ab7a2e505b63309976e6b9c4a8d1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/2ee8107ebc95989d4c85f981284edae7/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/2ee8107ebc95989d4c85f981284edae7/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/8cd3416ecde99bafac33989198ef3fa5/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/8cd3416ecde99bafac33989198ef3fa5/AndroidManifest.xml:20:5-44
 INJECTED from /Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/src/main/AndroidManifest.xml

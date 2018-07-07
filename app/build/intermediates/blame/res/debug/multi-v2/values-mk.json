@@ -4,7 +4,7 @@
             "outputFile": "/Users/ivanmorett/Code/FBU/CodePath/Week2/twitterClient/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-mk/values-mk.xml",
             "map": [
                 {
-                    "source": "/Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/615b49ca348379eb2d5f09f2d629d4fb/res/values-mk/values-mk.xml",
+                    "source": "/Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/1b15ab7a2e505b63309976e6b9c4a8d1/res/values-mk/values-mk.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/047bfa43806eef7097041c5b444c58cf/res/values-mk/values-mk.xml",
+                    "source": "/Users/ivanmorett/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/4934412f530d554527e9a916bff552cf/res/values-mk/values-mk.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

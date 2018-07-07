@@ -8,9 +8,11 @@ import android.database.Cursor;
 import java.lang.Long;
 import java.lang.Override;
 import java.lang.String;
+import java.lang.SuppressWarnings;
 import java.util.ArrayList;
 import java.util.List;
 
+@SuppressWarnings("unchecked")
 public class SampleModelDao_Impl implements SampleModelDao {
   private final RoomDatabase __db;
 

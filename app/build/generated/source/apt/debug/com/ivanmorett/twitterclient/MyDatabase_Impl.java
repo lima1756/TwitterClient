@@ -17,24 +17,30 @@ import com.ivanmorett.twitterclient.models.SampleModelDao_Impl;
 import java.lang.IllegalStateException;
 import java.lang.Override;
 import java.lang.String;
+import java.lang.SuppressWarnings;
 import java.util.HashMap;
 import java.util.HashSet;
 
+@SuppressWarnings("unchecked")
 public class MyDatabase_Impl extends MyDatabase {
   private volatile SampleModelDao _sampleModelDao;
 
+  @Override
   protected SupportSQLiteOpenHelper createOpenHelper(DatabaseConfiguration configuration) {
     final SupportSQLiteOpenHelper.Callback _openCallback = new RoomOpenHelper(configuration, new RoomOpenHelper.Delegate(1) {
+      @Override
       public void createAllTables(SupportSQLiteDatabase _db) {
         _db.execSQL("CREATE TABLE IF NOT EXISTS `SampleModel` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `name` TEXT)");
         _db.execSQL("CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)");
-        _db.execSQL("INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, \"6e67c6322d1cd4b011c8b19c13634a4c\")");
+        _db.execSQL("INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, \"a06521f5ba00a3f69536e75e77bd2cf4\")");
       }
 
+      @Override
       public void dropAllTables(SupportSQLiteDatabase _db) {
         _db.execSQL("DROP TABLE IF EXISTS `SampleModel`");
       }
 
+      @Override
       protected void onCreate(SupportSQLiteDatabase _db) {
         if (mCallbacks != null) {
           for (int _i = 0, _size = mCallbacks.size(); _i < _size; _i++) {
@@ -43,6 +49,7 @@ public class MyDatabase_Impl extends MyDatabase {
         }
       }
 
+      @Override
       public void onOpen(SupportSQLiteDatabase _db) {
         mDatabase = _db;
         internalInitInvalidationTracker(_db);
@@ -53,6 +60,7 @@ public class MyDatabase_Impl extends MyDatabase {
         }
       }
 
+      @Override
       protected void validateMigration(SupportSQLiteDatabase _db) {
         final HashMap<String, TableInfo.Column> _columnsSampleModel = new HashMap<String, TableInfo.Column>(2);
         _columnsSampleModel.put("id", new TableInfo.Column("id", "INTEGER", false, 1));
@@ -67,7 +75,7 @@ public class MyDatabase_Impl extends MyDatabase {
                   + " Found:\n" + _existingSampleModel);
         }
       }
-    }, "6e67c6322d1cd4b011c8b19c13634a4c");
+    }, "a06521f5ba00a3f69536e75e77bd2cf4", "6e67c6322d1cd4b011c8b19c13634a4c");
     final SupportSQLiteOpenHelper.Configuration _sqliteConfig = SupportSQLiteOpenHelper.Configuration.builder(configuration.context)
         .name(configuration.name)
         .callback(_openCallback)
@@ -79,6 +87,23 @@ public class MyDatabase_Impl extends MyDatabase {
   @Override
   protected InvalidationTracker createInvalidationTracker() {
     return new InvalidationTracker(this, "SampleModel");
+  }
+
+  @Override
+  public void clearAllTables() {
+    super.assertNotMainThread();
+    final SupportSQLiteDatabase _db = super.getOpenHelper().getWritableDatabase();
+    try {
+      super.beginTransaction();
+      _db.execSQL("DELETE FROM `SampleModel`");
+      super.setTransactionSuccessful();
+    } finally {
+      super.endTransaction();
+      _db.query("PRAGMA wal_checkpoint(FULL)").close();
+      if (!_db.inTransaction()) {
+        _db.execSQL("VACUUM");
+      }
+    }
   }
 
   @Override
