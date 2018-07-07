@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.os.AsyncTask;
 import android.view.Menu;
 import android.view.View;
+import android.widget.Button;
 import android.widget.Toast;
 
 import com.ivanmorett.twitterclient.R;
@@ -33,6 +34,13 @@ public class LoginActivity extends OAuthLoginActionBarActivity<TwitterClient> {
             };
         };
         task.execute(sampleModel);
+        Button btn = findViewById(R.id.btnLogin);
+        btn.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                getClient().connect();
+            }
+        });
     }
 
 
@@ -62,8 +70,5 @@ public class LoginActivity extends OAuthLoginActionBarActivity<TwitterClient> {
     // Click handler method for the button used to start OAuth flow
     // Uses the client to initiate OAuth authorization
     // This should be tied to a button used to login
-    public void loginToRest(View view) {
-        getClient().connect();
-    }
 
 }

@@ -20,6 +20,7 @@ public class Tweet {
     private boolean retweeted, favorited;
     private Entities entities;
 
+
     public Tweet(){}
 
     public static Tweet fromJSON(JSONObject jsonObject) throws JSONException{

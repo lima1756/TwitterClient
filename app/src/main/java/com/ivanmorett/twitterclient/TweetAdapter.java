@@ -163,12 +163,60 @@ public class TweetAdapter extends RecyclerView.Adapter<TweetAdapter.ViewHolder> 
             btnFavorite.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Tweet tweet = isTweetClicked(getAdapterPosition());
+                    final Tweet tweet = isTweetClicked(getAdapterPosition());
                     if(tweet==null)
                         return;
-                    changeButtonColor(btnFavorite, tvFavorite, tweet.isFavorited(), R.color.colorFavorite);
-                    tweet.changeFavorite();
-                    tvFavorite.setText(tweet.getFavoriteCount());
+                    if(tweet.isFavorited()){
+                        client.unlikeTweet(tweet.getUid(), new JsonHttpResponseHandler(){
+                            @Override
+                            public void onSuccess(int statusCode, Header[] headers, JSONObject response) {
+                                changeButtonColor(btnFavorite, tvFavorite, tweet.isFavorited(), R.color.colorFavorite);
+                                tweet.changeFavorite();
+                                tvFavorite.setText(tweet.getFavoriteCount());
+                            }
+
+                            @Override
+                            public void onFailure(int statusCode, Header[] headers, Throwable throwable, JSONObject errorResponse) {
+                                Log.e("Adapter", errorResponse.toString());
+                                changeButtonColor(btnFavorite, tvFavorite, tweet.isFavorited(), R.color.colorFavorite);
+                                tweet.changeFavorite();
+                                tvFavorite.setText(tweet.getFavoriteCount());
+                                try {
+                                    Toast.makeText(context,
+                                            errorResponse.getJSONArray("errors").getJSONObject(0).getString("message"),
+                                            Toast.LENGTH_SHORT).show();
+                                } catch (JSONException e) {
+                                    e.printStackTrace();
+                                }
+                            }
+                        });
+                    }
+                    else{
+                        client.likeTweet(tweet.getUid(), new JsonHttpResponseHandler(){
+                            @Override
+                            public void onSuccess(int statusCode, Header[] headers, JSONObject response) {
+                                changeButtonColor(btnFavorite, tvFavorite, tweet.isFavorited(), R.color.colorFavorite);
+                                tweet.changeFavorite();
+                                tvFavorite.setText(tweet.getFavoriteCount());
+                            }
+
+                            @Override
+                            public void onFailure(int statusCode, Header[] headers, Throwable throwable, JSONObject errorResponse) {
+                                Log.e("Adapter", errorResponse.toString());
+                                changeButtonColor(btnFavorite, tvFavorite, tweet.isFavorited(), R.color.colorFavorite);
+                                tweet.changeFavorite();
+                                tvFavorite.setText(tweet.getFavoriteCount());
+                                try {
+                                    Toast.makeText(context,
+                                            errorResponse.getJSONArray("errors").getJSONObject(0).getString("message"),
+                                            Toast.LENGTH_SHORT).show();
+                                } catch (JSONException e) {
+                                    e.printStackTrace();
+                                }
+                            }
+                        });
+                    }
+
                 }
             });
         }

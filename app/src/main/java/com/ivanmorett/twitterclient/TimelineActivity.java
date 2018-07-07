@@ -11,6 +11,7 @@ import android.support.v7.widget.LinearSmoothScroller;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.ivanmorett.twitterclient.models.Tweet;
@@ -38,6 +39,7 @@ public class TimelineActivity extends AppCompatActivity {
     @BindView(R.id.rvTweet) RecyclerView rvTweet;
     @BindView(R.id.fabComposeTweet) FloatingActionButton fabComposeTweet;
     @BindView(R.id.swipeContainer) SwipeRefreshLayout swipeContainer;
+    @BindView(R.id.ivUserImage) ImageView ivUserImage;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -66,6 +68,8 @@ public class TimelineActivity extends AppCompatActivity {
         });
 
 
+
+        ;
         populateTimeline();
 
         swipeContainer.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
@@ -95,6 +99,41 @@ public class TimelineActivity extends AppCompatActivity {
             }
         };
         smoothScroller.setTargetPosition(0);
+        client.getUserProfile(new JsonHttpResponseHandler(){
+            @Override
+            public void onSuccess(int statusCode, Header[] headers, JSONObject response) {
+                try {
+                    GlideApp.with(getApplicationContext())
+                            .load(response.getString("profile_image_url_https"))
+                            .circleCrop()
+                            .into(ivUserImage);
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+            }
+
+            @Override
+            public void onFailure(int statusCode, Header[] headers, Throwable throwable, JSONObject errorResponse) {
+                super.onFailure(statusCode, headers, throwable, errorResponse);
+                Log.e("Client", errorResponse.toString());
+                Log.e("Client", throwable.getMessage());
+            }
+
+            @Override
+            public void onFailure(int statusCode, Header[] headers, Throwable throwable, JSONArray errorResponse) {
+                super.onFailure(statusCode, headers, throwable, errorResponse);
+                Log.e("Client", errorResponse.toString());
+                Log.e("Client", throwable.getMessage());
+            }
+
+            @Override
+            public void onFailure(int statusCode, Header[] headers, String responseString, Throwable throwable) {
+                super.onFailure(statusCode, headers, responseString, throwable);
+                Log.e("Client", responseString);
+                Log.e("Client", throwable.getMessage());
+            }
+        });
+
     }
 
     private void populateTimeline(){

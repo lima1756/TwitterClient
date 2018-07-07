@@ -16,6 +16,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -39,6 +40,7 @@ public class ComposeFragment extends DialogFragment implements View.OnClickListe
     @BindView(R.id.etTweetBody) EditText etTweetBody;
     @BindView(R.id.tvRemainingChars) TextView tvRemainingChars;
     @BindView(R.id.tvReply) TextView tvReply;
+    @BindView(R.id.ivUser) ImageView ivUser;
     private Context context;
     private boolean replying;
     private Tweet tweet;
@@ -67,6 +69,11 @@ public class ComposeFragment extends DialogFragment implements View.OnClickListe
                                 Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_compose, container);
         ButterKnife.bind(this, view);
+
+        GlideApp.with(context)
+                .load(TwitterClient.USER_IMG)
+                .circleCrop()
+                .into(ivUser);
         return view;
 
     }
