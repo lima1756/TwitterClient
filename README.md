@@ -52,7 +52,8 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/lima1756/TwitterClient/blob/developing/gif1.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/lima1756/TwitterClient/blob/developing/gif2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 
 ## Notes
@@ -66,7 +67,7 @@ I lost a lot of time in the inifite timeline and I couldn't make it work.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright 2018 Ivan Morett
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
